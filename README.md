@@ -1,10 +1,28 @@
 # My Cloud Security Journey
 
-This is my first repository. I am learning:
+This is my first repository. I am learning cloud security basics.
 
-- IP addresses
+## Topics I have learned:
+
+- IP Address
 - Public vs Private IP
-- Firewalls
-- IAM
+- Port Numbers
+- Firewall
+- IAM (Identity and Access Management)
 - Shared Responsibility Model
-- Linux basics
+- Linux Basics (pwd, ls, cd)
+- Security Groups
+- Network ACL
+- VPC (Virtual Private Cloud)
+- Subnets
+- Internet Gateway
+- Route Tables
+- NAT Gateway
+- Bastion Host
+- Load Balancer
+- CloudWatch
+- S3 (Simple Storage Service)
+- IAM Policies
+- Encryption
+- High Availability (HA)
+- Disaster Recovery (DR)
