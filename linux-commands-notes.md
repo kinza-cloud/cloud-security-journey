@@ -11,3 +11,22 @@
 | `cd new_folder` | Moves into a folder |
 | `pwd` | Shows current location |
 | `cd ..` | Goes back one folder |
+# Linux Advanced Commands
+
+| Command | What it does |
+|---------|--------------|
+| `grep -r "text" .` | Searches for text in all files |
+| `sort file.txt` | Sorts lines alphabetically |
+| `sort file.txt \| uniq` | Removes duplicate lines |
+| `ps aux` | Shows all running processes |
+| `df -h` | Shows disk space in human-readable format |
+| `free -m` | Shows memory usage in MB |
+
+## Permission Commands
+| Command | What it does |
+|---------|--------------|
+| `chmod 755 file` | User: read+write+execute, Group: read+execute, Others: read+execute |
+| `chmod 644 file` | User: read+write, Group: read, Others: read |
+| `chmod u+x file` | Adds execute permission for user |
+| `chmod go-r file` | Removes read permission for group and others |
+| `ls -l file` | Shows current permissions of a file |
