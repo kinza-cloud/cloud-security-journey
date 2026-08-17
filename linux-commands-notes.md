@@ -30,3 +30,26 @@
 | `chmod u+x file` | Adds execute permission for user |
 | `chmod go-r file` | Removes read permission for group and others |
 | `ls -l file` | Shows current permissions of a file |
+## Linux Commands - tar and gzip
+
+### `tar` (Combine files)
+| Command | What it does |
+|---------|--------------|
+| `tar -czf archive.tar.gz file1 file2` | Creates a compressed archive |
+| `tar -tzf archive.tar.gz` | Lists contents of the archive |
+| `tar -xzf archive.tar.gz` | Extracts the archive |
+
+### `gzip` (Compress files)
+| Command | What it does |
+|---------|--------------|
+| `gzip file.txt` | Compresses a file to `.gz` |
+| `gunzip file.txt.gz` | Decompresses the file back |
+
+### Key options:
+| Option | Meaning |
+|--------|---------|
+| `-c` | Create |
+| `-z` | Compress with gzip |
+| `-f` | File name |
+| `-x` | Extract |
+| `-t` | List contents |
