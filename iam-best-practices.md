@@ -27,3 +27,17 @@ Remove permissions that users no longer need.
 ## One sentence to remember:
 
 Give the least access needed, use groups, enable MFA, and review permissions regularly.
+## Linux Command for IAM Mindset:
+
+```bash
+chmod 600 secret.txt
+```
+
+This gives only you read/write access — just like IAM gives only what's needed.
+
+## One More Rule:
+
+Rule 6: Use IAM Roles for Services
+Never hard-code access keys in your code. Use IAM roles instead.
+
+```
