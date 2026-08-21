@@ -42,3 +42,17 @@ It answers three questions:
 ## One sentence to remember:
 
 An IAM Policy is a rule that says: "User X can do Action Y on Resource Z."
+How to Think Like a Security Engineer:
+
+- Always start with **DENY** by default.
+- Then **ALLOW** only what is needed.
+- This is called **"Least Privilege"**.
+
+##  Python Policy Checker (Simulation):
+
+```python
+action = input("Enter action (read/write/delete): ")
+if action == "delete":
+    print("❌ Denied! You don't have delete permission.")
+else:
+    print("✅ Allowed.")
