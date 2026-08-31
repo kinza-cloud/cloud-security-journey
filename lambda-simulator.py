@@ -1,3 +1,4 @@
+# This script simulates a simple AWS Lambda function
 event = input("Enter event type (s3_upload, api_call, scheduled): ")
 name = input("Enter your name: ")
 
